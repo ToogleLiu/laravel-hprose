@@ -1,6 +1,8 @@
 # Laravel-hprose
 
-基于 [hprose/hprose-php](https://github.com/hprose/hprose-php/wiki) 开发的Laravel扩展：[laravel-hprose](https://github.com/zhuqipeng/laravel-hprose)
+基于 [hprose/hprose-php](https://github.com/hprose/hprose-php/wiki) 开发的Laravel扩展：[laravel-hprose](https://github.com/zhuqipeng/laravel-hprose)  
+
+因为原项目 [laravel-hprose](https://github.com/zhuqipeng/laravel-hprose) 不支持 Laravel 6，我 fork 了原作者的项目，兼容了 Laravel 6，用于自用。
 
 ## 版本要求
 ```
