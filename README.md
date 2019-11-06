@@ -11,12 +11,12 @@ Laravel>=5.2
 
 ## 安装
 ```shell
-composer require "zhuqipeng/laravel-hprose:master"
+composer require "toogleliu/laravel-hprose:master"
 ```
 或者编辑composer.json
 ```json
 "require": {
-    "zhuqipeng/laravel-hprose": "master"
+    "toogleliu/laravel-hprose": "master"
 }
 ```
 
@@ -26,14 +26,14 @@ composer require "zhuqipeng/laravel-hprose:master"
     'providers' => [
         // ...
 
-        Zhuqipeng\LaravelHprose\ServiceProvider::class,
+        Toogleliu\LaravelHprose\ServiceProvider::class,
     ]
     ```
     ```php
     'aliases' => [
         // ...
 
-        'LaravelHproseMethodManage' => Zhuqipeng\LaravelHprose\Facades\HproseMethodManage::class,
+        'LaravelHproseMethodManage' => Toogleliu\LaravelHprose\Facades\HproseMethodManage::class,
     ]
     ```
 2. 配置.env文件
