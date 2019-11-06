@@ -1,5 +1,5 @@
 {
-    "name": "zhuqipeng/laravel-hprose",
+    "name": "toogleliu/laravel-hprose",
     "description": "Hprose for Laravel",
     "keywords": ["hprose", "laravel"],
     "license": "MIT",
@@ -16,16 +16,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Zhuqipeng\\LaravelHprose\\": "src/"
+            "Toogleliu\\LaravelHprose\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Zhuqipeng\\LaravelHprose\\ServiceProvider"
+                "Toogleliu\\LaravelHprose\\ServiceProvider"
             ],
             "aliases": {
-                "LaravelHproseRouter": "Zhuqipeng\\LaravelHprose\\Facades\\Router"
+                "LaravelHproseRouter": "Toogleliu\\LaravelHprose\\Facades\\Router"
             }
         }
     }
