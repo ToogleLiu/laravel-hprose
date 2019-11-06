@@ -16,16 +16,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Toogleliu\\LaravelHprose\\": "src/"
+            "Zhuqipeng\\LaravelHprose\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Toogleliu\\LaravelHprose\\ServiceProvider"
+                "Zhuqipeng\\LaravelHprose\\ServiceProvider"
             ],
             "aliases": {
-                "LaravelHproseRouter": "Toogleliu\\LaravelHprose\\Facades\\Router"
+                "LaravelHproseRouter": "Zhuqipeng\\LaravelHprose\\Facades\\Router"
             }
         }
     }
