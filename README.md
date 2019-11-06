@@ -26,14 +26,14 @@ composer require "toogleliu/laravel-hprose:master"
     'providers' => [
         // ...
 
-        Toogleliu\LaravelHprose\ServiceProvider::class,
+        Zhuqipeng\LaravelHprose\ServiceProvider::class,
     ]
     ```
     ```php
     'aliases' => [
         // ...
 
-        'LaravelHproseMethodManage' => Toogleliu\LaravelHprose\Facades\HproseMethodManage::class,
+        'LaravelHproseMethodManage' => Zhuqipeng\LaravelHprose\Facades\HproseMethodManage::class,
     ]
     ```
 2. 配置.env文件
