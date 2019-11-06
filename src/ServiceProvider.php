@@ -4,6 +4,7 @@ namespace Zhuqipeng\LaravelHprose;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use LaravelHproseRouter;
+use Illuminate\Support\Str;
 
 class ServiceProvider extends LaravelServiceProvider
 {
@@ -43,7 +44,7 @@ class ServiceProvider extends LaravelServiceProvider
      */
     protected function loadRoute()
     {
-        if (str_is('5.2.*', $this->app::VERSION)) {
+        if (Str::is('5.2.*', $this->app::VERSION)) {
             $routeFilePath = base_path('app/Http/rpc.php');
         } else {
             $routeFilePath = base_path('routes/rpc.php');
@@ -132,7 +133,7 @@ class ServiceProvider extends LaravelServiceProvider
     {
         $source = realpath(__DIR__ . '/route.php');
 
-        if (str_is('5.2.*', $this->app::VERSION)) {
+        if (Str::is('5.2.*', $this->app::VERSION)) {
             $targetPath = base_path('app/Http/rpc.php');
         } else {
             $targetPath = base_path('routes/rpc.php');
