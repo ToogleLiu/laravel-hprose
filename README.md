@@ -11,12 +11,12 @@ Laravel>=5.2
 
 ## 安装
 ```shell
-composer require "zhuqipeng/laravel-hprose:~v2.0"
+composer require "zhuqipeng/laravel-hprose:master"
 ```
 或者编辑composer.json
 ```json
 "require": {
-    "zhuqipeng/laravel-hprose": "~v2.0"
+    "zhuqipeng/laravel-hprose": "master"
 }
 ```
 
